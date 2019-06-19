@@ -1,0 +1,17 @@
+.navbar-inverse {
+    background-color:#005580;
+    background-image: none;
+    background-repeat: no-repeat;
+    color:#ffffff;
+}	
+.navbar-inverse .navbar-nav > .active > a {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.panel{
+    margin-top: 138px
+}
