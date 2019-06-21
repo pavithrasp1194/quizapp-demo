@@ -56,7 +56,7 @@ export class SignupComponent implements OnInit {
   }
 
   login() {
-    this.router.navigate(['./login', this.usersList]);
+    this.router.navigate(['./login']);
   }
 
   signUp() {
@@ -72,7 +72,7 @@ export class SignupComponent implements OnInit {
         userName: this.signupForm.controls.userName.value,
         password: this.signupForm.controls.password.value
       });
-      this.router.navigate(['./login', this.usersList]);
+      this.router.navigate(['./login']);
     }
   }
 

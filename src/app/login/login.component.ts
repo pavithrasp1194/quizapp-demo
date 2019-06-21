@@ -27,9 +27,7 @@ export class LoginComponent implements OnInit {
   });
 
   ngOnInit() {
-    this.route.paramMap.subscribe(params => {
       console.log(this.usersList);
-   });
   }
 
   login(): void {

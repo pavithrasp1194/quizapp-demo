@@ -80,7 +80,7 @@
                 (click)="showConfirmPassword()"></i>
               <i class="fa fa-fw fa-eye-slash form-control-feedback" *ngIf="showConfirmPwd"
                 (click)="showConfirmPassword()"></i>
-              <div *ngIf="signupForm.controls['password'].invalid && submitted===true" style="color: red;">Confirm
+              <div *ngIf="signupForm.controls['confirmPassword'].invalid && submitted===true" style="color: red;">Confirm
                 Password is required</div>
               <div *ngIf="signupForm.hasError('notSame') && submitted===true" style="color: red;">Passwords must match
               </div>
